@@ -1,159 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Muhammad Shayan Shamsi" />
-  <title>Muhammad Shayan Shamsi</title>
-  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
-  <link rel="icon" type="image/png" href="images/seal_icon.png" />
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      background: #fff;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .header {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .header h1 {
-      font-size: 2.5em;
-      margin: 0;
-    }
-
-    .header p {
-      font-size: 1em;
-      margin: 5px 0;
-    }
-
-    .main {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .text-content {
-      flex: 1 1 60%;
-      font-size: 1em;
-    }
-
-    .image-container {
-      flex: 1 1 35%;
-      text-align: center;
-    }
-
-    .image-container img {
-      width: 100%;
-      max-width: 200px;
-      border-radius: 50%;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .links {
-      text-align: center;
-      margin-top: 20px;
-    }
-
-    .links a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: #007acc;
-      font-weight: bold;
-    }
-
-    .links a:hover {
-      text-decoration: underline;
-    }
-
-    .footer {
-      text-align: right;
-      font-size: 0.9em;
-      margin-top: 40px;
-      color: #666;
-    }
-
-    .footer a {
-      color: #007acc;
-      text-decoration: none;
-    }
-
-    .footer a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name | AI Safety Researcher</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Academic Icons & Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
-  <div class="container">
-    <div class="header">
-      <h1>Muhammad Shayan Shamsi</h1>
-      <p><a href="mailto:shayans210@gmail.com">shayans210@gmail.com</a></p>
-    </div>
 
-    <div class="main">
-      <div class="text-content">
-        <p>
-          Hello! 👋 I'm Shayan (he/him/his), a senior computer science undergraduate student at the
-          Institute of Business Administration (IBA), Karachi. In the Summer of 2024, I interned at CISPA Helmholtz
-          Center for Information Security
-          advised by
-          <a href="https://adam-dziedzic.com/">Adam Dziedzic</a> and
-          <a href="https://franziska-boenisch.de/">Franziska Boenisch</a> in the
-          SprintML Lab where I worked on differential privacy in large language models.
-        </p>
-        <p>
-          My research interests are broadly in building secure, private,
-          robust, interpretable, and trustworthy machine learning systems.
-        </p>
-        <p>
-          Currently, I am honored to be a fellow for the <a href="https://www.fatimafellowship.com/">Fatima
-            Fellowship</a> where I am working on the interpretability of Vision Language Models
-          (VLMs) under the supervision of <a href="https://xiaoiker.github.io/">Dr. Wei Peng</a>.
-        </p>
-      </div>
-      <div class="image-container">
-        <img src="images/ShayanShamsi.jpeg" alt="Muhammad Shayan Shamsi" />
-      </div>
-    </div>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Muhammad Shayan Shamsi<span class="dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#writing">Writing</a></li>
+            <li><a href="resume.pdf" target="_blank" class="cv-btn">CV</a></li>
+        </ul>
+    </nav>
 
-    <div class="links">
-      <a href="mailto:shayans210@gmail.com">Email</a> /
-      <a href="data/CV.pdf">CV</a> /
-      <a href="https://github.com/ShayanShamsi/">Github</a> /
-      <a href="https://www.linkedin.com/in/muhammad-shayan-shamsi/">LinkedIn</a> /
-      <a href="https://twitter.com/ShayanShamsi11">Twitter</a>
-    </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Working on <br><span class="highlight">AI Alignment & Safety</span></h1>
+            <p class="subtitle">Master's Student at Saarland University</p>
+            <p class="bio-short">Focusing on Mechanistic Interpretability and Scalable Oversight.</p>
+            
+            <div class="hero-buttons">
+                <a href="#research" class="btn primary">View Research</a>
+                <a href="mailto:shayans210@gmail.com" class="btn secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
 
-    <br><br>
-    <div class="section"></div>
-    <h2>Teaching Assistant</h2>
-    <ul>
-      <li>Introduction to Artificial Intelligence, IBA -- Spring 2024</li>
-      <li>Data Structures, IBA -- Fall 2024</li>
-      <li>Parallel and Distributed Computing, IBA -- Spring 2025</li>
-    </ul>
-  </div>
+    <!-- About Section -->
+    <section id="about" class="container">
+        <div class="about-grid">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I am a Master's student in Data Science and Artificial Intelligence aiming to reduce existential risk from advanced artificial intelligence.</p>
+                <p>My current interest focuses on <strong>reverse-engineering transformer models</strong> to understand internal representations of truth. I am also interested in working on reinforcement learning environments.</p>
+                <p>I am currently looking for research engineering internships or PhD positions for Fall 2026.</p>
+            </div>
+            <div class="interests">
+                <h3>Interests</h3>
+                <ul class="tag-list">
+                    <li>Mechanistic Interpretability</li>
+                    <li>Robustness</li>
+                    <li>Model Governance</li>
+                    <li>Evals</li>
+                    <li>Deep Learning</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-  <div class="footer">
-    <p>
-      Design and source code inspired by
-      <a href="https://jonbarron.info/">Jon Barron's website</a>
-    </p>
-  </div>
-  </div>
+    <!-- Research / Projects Section -->
+    <section id="research" class="container bg-light">
+        <h2>Selected Research</h2>
+        <div class="project-grid">
+            
+            <!-- Research Item 1 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag paper">ArXiv</span>
+                    <span class="date">2024</span>
+                </div>
+                <h3>Probing Large Language Models for Deception</h3>
+                <p>Investigating whether activations in intermediate layers can predict deceptive outputs in RLHF-tuned models.</p>
+                <div class="links">
+                    <a href="#"><i class="fas fa-file-pdf"></i> Read Paper</a>
+                    <a href="#"><i class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+
+            <!-- Research Item 2 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag project">Project</span>
+                    <span class="date">2023</span>
+                </div>
+                <h3>Toy Models of Superposition</h3>
+                <p>Reproduction of Anthropic's work on superposition in toy models, visualized using Python and D3.js.</p>
+                <div class="links">
+                    <a href="#"><i class="fab fa-github"></i> View Repo</a>
+                    <a href="#"><i class="fas fa-chart-line"></i> Demo</a>
+                </div>
+            </div>
+
+            <!-- Research Item 3 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="tag blog">LessWrong</span>
+                    <span class="date">2023</span>
+                </div>
+                <h3>Critique of Current Governance Frameworks</h3>
+                <p>A deep dive into the limitations of voluntary compute reporting and proposals for hardware-level verification.</p>
+                <div class="links">
+                    <a href="#"><i class="fas fa-pen-nib"></i> Read Post</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Writing / Blog Section -->
+    <section id="writing" class="container">
+        <h2>Recent Writing</h2>
+        <ul class="writing-list">
+            <li>
+                <a href="#">
+                    <span class="writing-title">Notes on "The Alignment Problem"</span>
+                    <span class="writing-source">Personal Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="writing-title">Understanding Sparse Autoencoders</span>
+                    <span class="writing-source">Alignment Forum</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="socials">
+            <a href="https://github.com/ShayanShamsi" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+            <a href="https://x.com/ShayanShamsi11" title="Twitter/X"><i class="fab fa-twitter"></i></a>
+            <a href="https://pk.linkedin.com/in/muhammad-shayan-shamsi" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; <span id="year"></span> Muhammad Shayan Shamsi</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-
 </html>
